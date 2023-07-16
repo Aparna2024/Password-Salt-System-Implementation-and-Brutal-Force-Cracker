@@ -1,4 +1,4 @@
-package designandAnalysisHW0;
+package BruteForceSaltImplementation;
 
 import java.util.Scanner;
 import java.io.FileReader;
