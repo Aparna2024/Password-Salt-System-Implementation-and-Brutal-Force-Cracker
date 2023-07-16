@@ -1,1 +1,4 @@
 # Password-Salt-System-Implementation-and-Brutal-Force-Cracker
+
+Description of the project:
+A salt is stored in the database and added to the hashing process to force the uniqueness of the password, which is easy to verify and can increase the complexity without increasing user requriments. The salt does not need to be kept secret and the extra security which comes in with the salt is that it even maps same passwords to different hashes depending on the salt. This renders the dictionary attacks useless which are otherwise very effective in password cracking. Then I implement brute force cracker, to reduce the complexity for cracking the password and salt, the passwords are randomly set in the range of [0000, 1000], while the salt implement a cracker system is to brute-forcely try all possible combinations of password and salt for one UID. 
